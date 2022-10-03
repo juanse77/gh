@@ -16,4 +16,4 @@ jobs:
         with:
           files: ${{ github.workspace }}/dist/*
           name: gh-app
-          tag: gh-app@v1
+          tag_name: gh-app@v1

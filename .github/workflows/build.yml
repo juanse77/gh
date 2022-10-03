@@ -13,9 +13,11 @@ jobs:
           python-version: '3.10'
       - name: Install Poetry
         uses: snok/install-poetry@v1
-      - run: poetry build # Ejecuta un comando de consola en el repo
+      - name: install dependencies
+        run: poetry install
       - name: Testing
         run: poetry run pytest
+      - run: poetry build # Ejecuta un comando de consola en el repo
       - name: Publication
         uses: softprops/action-gh-release@v1
         with:

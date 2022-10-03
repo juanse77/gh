@@ -11,4 +11,7 @@ jobs:
       - name: Install Poetry
         uses: snok/install-poetry@v1
       - run: poetry build # Ejecuta un comando de consola en el repo
-      - run: ls ${{ github.workspace }}
+      - name: Publish
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ${{ github.workspace }}/dist/*

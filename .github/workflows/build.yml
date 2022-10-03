@@ -1,5 +1,8 @@
 name: Building
-on: [push]
+on: 
+  push:
+    tags:
+      - "v*.*.*" # Este on solo se ejecuta cuando hay etiqueta que cumpla el patrón
 jobs:
   building:
     runs-on: ubuntu-latest

@@ -12,7 +12,9 @@ Este proyecto es un trabajo del curso de MLOps del spegc
    :maxdepth: 2
    :caption: Contents:
 
-
+   install
+   example
+   
 
 Indices and tables
 ==================

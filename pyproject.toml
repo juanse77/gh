@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "modeltools"
 version = "0.2.6"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Paquete de pruebas del curso de MLOps de la SPEGC"
+authors = ["Juan Ramírez <juanseraar@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"

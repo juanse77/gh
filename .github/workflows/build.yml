@@ -16,10 +16,12 @@ jobs:
       - name: install dependencies
         run: poetry install
       - name: Testing
-        #run: poetry run pytest --junitxml=jest-junit.xml
-        uses: dorny/test-reporter@v1
+        run: poetry run pytest --junitxml=jest-junit.xml
         
-        if: failure(poetry run pytest --junitxml=jest-junit.xml)        # run this step even if previous step failed
+
+      - name: Test Report
+        uses: dorny/test-reporter@v1 
+        if: success() || failure()        # run this step even if previous step failed
         with:
           name: test-results
           path: jest-junit.xml

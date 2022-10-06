@@ -16,7 +16,7 @@ jobs:
       - name: install dependencies
         run: poetry install
       - name: Testing
-        run: poetry run pytest --junitxml=jest-junit.xml
+        run: poetry run pytest --junitxml=java-junit.xml
         
 
       - name: Test Report
@@ -24,8 +24,8 @@ jobs:
         if: success() || failure()        # run this step even if previous step failed
         with:
           name: test-results
-          path: jest-junit.xml
-          reporter: jest-junit              # Format of test results
+          path: java-junit.xml
+          reporter: java-junit              # Format of test results
 
 
       - run: poetry build # Ejecuta un comando de consola en el repo

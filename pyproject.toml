@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "modeltools"
-version = "0.2.6"
+version = "1.0.0"
 description = "Paquete de pruebas del curso de MLOps de la SPEGC"
 authors = ["Juan Ramírez <juanseraar@hotmail.com>"]
 

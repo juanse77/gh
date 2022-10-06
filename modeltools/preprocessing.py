@@ -11,7 +11,7 @@ def dummy(a, b):
     :type a: Float
     :param b: number
     :type b: Float
-    :returns: total sum
+    :returns: Total sum
     :rtype: Float
 
     >>> dummy(2, 3)

@@ -1,6 +1,9 @@
 import pandas as pd
 from modeltools.preprocessing import get_numerical_features
 
+def test_get_numerical_features_simple2():
+    assert 1 == 2
+
 def test_get_numerical_features_simple():
     """
     En este test vamos a probar que distingue los campos numéricos entre cadenas de texto y campos de otro tipo

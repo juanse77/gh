@@ -1,7 +1,7 @@
 Ejemplo
 =======
 
-Esta librería teine utilidades para tratar dataframes
+Esta librería tiene utilidades para tratar dataframes
 
 Un ejmplo es: get_numerical_features_names
 
@@ -9,7 +9,7 @@ Un ejmplo es: get_numerical_features_names
 
     get_numerical_features_names(df) # devuelve ["var1", "var2"]
 
-Esta librería teine utilidades para tratar dataframes
+Esta función suma dos números
 
 Un ejmplo es: dummy
 

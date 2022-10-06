@@ -10,6 +10,9 @@ def dummy(a, b):
     :param a: number
     :param b: number
     :returns: total sum
+
+    >>> dummy(2, 3)
+    5
     """
     return a + b
 

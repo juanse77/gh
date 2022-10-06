@@ -32,5 +32,5 @@ exclude_patterns = []
 
 # html_theme = 'alabaster'
 # html_theme = 'furo'
-html_theme = 'piccolo'
+html_theme = 'piccolo_theme'
 html_static_path = ['_static']

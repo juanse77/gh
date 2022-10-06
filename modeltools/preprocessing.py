@@ -8,8 +8,11 @@ def dummy(a, b):
     Sums two numbers
 
     :param a: number
+    :type a: Float
     :param b: number
+    :type b: Float
     :returns: total sum
+    :rtype: Float
 
     >>> dummy(2, 3)
     5

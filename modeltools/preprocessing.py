@@ -28,10 +28,10 @@ def get_numerical_features(df):
     :returns: A list of column names of number datatypes 
     :rtype: List[str]
 
-    >>> from modeltools.preprocessing import get_numerical_features
-    >>> import pandas as pd
-    >>> df = pd.DataFrame({"a": [1]})
-    >>> get_numerical_features(df)
-    ['a']
+    #>>> from modeltools.preprocessing import get_numerical_features
+    #>>> import pandas as pd
+    #>>> df = pd.DataFrame({"a": [1]})
+    #>>> get_numerical_features(df)
+    #['a']
     """
     return list(df.select_dtypes(include=[np.number]).columns)

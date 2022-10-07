@@ -71,5 +71,5 @@ def test_get_numerical_features_complex():
 
     assert get_numerical_features(df) == ["complejo"]
 
-def test_get_numerical_features_simple2():
-    assert 1 == 2
+#def test_get_numerical_features_simple2():
+#    assert 1 == 2

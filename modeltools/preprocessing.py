@@ -4,7 +4,7 @@ Este módulo contiene helpers para el preprocesamiento de datos
 import numpy as np
 
 
-def dummy(a, b):
+def dummy(a: float, b: float) -> float:
     """
     Sums two numbers
 

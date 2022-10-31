@@ -35,7 +35,7 @@ def test_get_numerical_features_zero_rows():
     ]
 
 
-def test_get_numerical_features_complex():
+def test_get_numerical_features_floats():
     """
     Este test comprueba que funciona correctamente con números decimales
     """
